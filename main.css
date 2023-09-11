@@ -1,0 +1,63 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar,
+.line {
+    background-color:yellow;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: black;
+    color: yellow;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+.section-title {
+    font-family: Dancing Script, cursive;
+}
+
+.text-colored {
+    color: yellow;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: yellow;
+    color: black;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: yellow;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    
+}
+
+.line {
+    padding: 5px;
+    max-width: 75vw;
+    margin-left: 12vw;
+}
